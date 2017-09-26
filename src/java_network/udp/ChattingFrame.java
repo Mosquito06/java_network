@@ -26,7 +26,7 @@ public class ChattingFrame extends JFrame {
 		ta.setEditable(false);
 		
 		add(tf, BorderLayout.SOUTH);
-		add(tf, BorderLayout.CENTER);
+		add(ta, BorderLayout.CENTER);
 		pack();
 		
 		messenger = new Messenger(myPort, otherPort, addr);
