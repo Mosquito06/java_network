@@ -11,7 +11,7 @@ import javax.swing.JTextArea;
 
 public class Messenger extends Thread {
 	private DatagramSocket socket;
-	private DatagramPacket packet; // 소켓은 패킷에 담아 보내야 하기 때문에 생성
+	private DatagramPacket packet; // 소켓은 패킷으로 보내고, 받기 때문에 생성
 	
 	private JTextArea textArea;
 	private InetAddress address;
