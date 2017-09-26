@@ -8,8 +8,6 @@ import java.net.URL;
 
 import javax.swing.JOptionPane;
 
-import com.sun.jndi.url.iiopname.iiopnameURLContextFactory;
-
 public class ParseURL {
 
 	public static void main(String[] args) {
